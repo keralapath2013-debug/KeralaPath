@@ -45,7 +45,7 @@ export default function Footer() {
         <hr className="my-4 border-secondary" />
 
         <div className="text-center text-light opacity-75">
-          <p className="mb-0">&copy; 2025 Springs of Kerala. All rights reserved.</p>
+          <p className="mb-0">&copy; 2025 Kerala Path Tours and Travels. All rights reserved.</p>
         </div>
       </div>
     </footer>

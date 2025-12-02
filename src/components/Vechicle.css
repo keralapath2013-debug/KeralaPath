@@ -1,0 +1,202 @@
+/* Vehicle Section Styles */
+.vehicle-section {
+  padding: 80px 0;
+}
+
+/* Header Divider */
+.divider {
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(135deg, #0a7e5c, #2ab587);
+  border-radius: 2px;
+}
+
+/* Info Bar */
+.vehicle-info-bar {
+  background: rgba(10, 126, 92, 0.05);
+  padding: 15px;
+  border-radius: 12px;
+  border-left: 4px solid #0a7e5c;
+}
+
+/* Updated vehicle card styling to match Packages design */
+.vehicle-card {
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.vehicle-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+  border-color: #0a7e5c;
+}
+
+/* Image wrapper styling */
+.vehicle-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 220px;
+  background: linear-gradient(135deg, #0a7e5c20, #2ab58720);
+}
+
+.vehicle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.vehicle-card:hover .vehicle-image {
+  transform: scale(1.05);
+}
+
+.vehicle-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.availability-badge {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
+
+/* Vehicle Body */
+.vehicle-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.vehicle-name {
+  color: #0a7e5c;
+  font-size: 1.35rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Capacity info styling */
+.capacity-info {
+  color: #2d3748;
+  font-size: 0.95rem;
+}
+
+/* Features List */
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.features-list li {
+  color: #4a5568;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.features-list i {
+  color: #0a7e5c;
+}
+
+/* Footer */
+.vehicle-footer {
+  margin-top: auto;
+}
+
+/* Price section matching Packages */
+.price-section {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.price-section .h3 {
+  color: #0a7e5c;
+  margin: 0;
+}
+
+/* Button styling matching Packages WhatsApp button */
+.btn-success {
+  background: linear-gradient(135deg, #0a7e5c, #2ab587);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(10, 126, 92, 0.3);
+  color: white;
+}
+
+.btn-success:active {
+  transform: translateY(0);
+}
+
+/* Info Box */
+.info-box {
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.info-box:hover {
+  border-color: #0a7e5c;
+  box-shadow: 0 8px 20px rgba(10, 126, 92, 0.08);
+}
+
+.info-box i {
+  display: block;
+}
+
+.info-box h4 {
+  color: #0a7e5c;
+  margin-top: 1rem;
+}
+
+.info-box p {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .vehicle-section {
+    padding: 60px 0;
+  }
+
+  .vehicle-image-wrapper {
+    height: 200px;
+  }
+
+  .vehicle-name {
+    font-size: 1.15rem;
+  }
+
+  .features-list li {
+    font-size: 0.8rem;
+  }
+
+  .info-box {
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .vehicle-body {
+    padding: 15px;
+  }
+
+  .vehicle-image-wrapper {
+    height: 180px;
+  }
+
+  .display-5 {
+    font-size: 1.8rem;
+  }
+}

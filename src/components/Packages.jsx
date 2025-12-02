@@ -61,7 +61,7 @@ export default function Packages() {
                   </ul>
 
                   <button className="btn btn-success w-100 rounded-pill py-2 fw-bold">
-                    Book Now
+                    Whatsapp now
                   </button>
                 </div>
               </div>

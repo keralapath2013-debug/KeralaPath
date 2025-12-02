@@ -7,6 +7,8 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Packages from './components/Packages'
+import Vehicle from './components/Vechicle'
+
 
 function App() {
   
@@ -15,6 +17,7 @@ function App() {
     <>
     <Navbar/>
       <Hero/>
+      <Vehicle/>
       <Destinations/>
       <Packages/>
       <About/>

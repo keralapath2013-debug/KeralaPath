@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
       <div className="container">
         <a className="navbar-brand fw-bold text-success" href="#home">
-          Springs of Kerala
+          Kerala Path Tours and Travels
         </a>
         <button
           className="navbar-toggler"
