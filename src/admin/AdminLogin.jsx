@@ -14,30 +14,43 @@ export default function AdminLogin() {
   e.preventDefault();
   setLoading(true);
   setError("");
-
-  const { data, error } = await supabase.auth.signInWithPassword({
-    email,
-    password,
-  });
-
-  if (error) {
-    setError(error.message);
+  if (!email || !password) {
+    setError("Please enter email and password.");
     setLoading(false);
     return;
   }
 
-  // ✅ Ensure session is ready
-  const {
-    data: { session },
-  } = await supabase.auth.getSession();
+  try {
+    console.debug("Attempting admin login", { email });
+    const { data, error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+    });
 
-  if (session) {
-    navigate("/admin/dashboard", { replace: true });
-  } else {
-    setError("Login succeeded but session not ready. Try again.");
+    console.debug("supabase signIn response", { data, error });
+
+    if (error) {
+      setError(error.message || JSON.stringify(error));
+      setLoading(false);
+      return;
+    }
+
+    // Ensure session is ready
+    const {
+      data: { session },
+    } = await supabase.auth.getSession();
+
+    if (session) {
+      navigate("/admin/dashboard", { replace: true });
+    } else {
+      setError("Login succeeded but session not ready. Try again.");
+    }
+  } catch (err) {
+    console.error("Admin login unexpected error", err);
+    setError(err?.message || String(err));
+  } finally {
+    setLoading(false);
   }
-
-  setLoading(false);
 };
 
 
