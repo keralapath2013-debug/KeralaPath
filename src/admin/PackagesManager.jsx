@@ -153,12 +153,16 @@ export default function PackagesManager() {
                 {pkg.popular && <span className="badge">Popular</span>}
               </div>
 
-              <div className="actions">
-                <button onClick={() => handleEdit(pkg)}>Edit</button>
-                <button className="danger" onClick={() => handleDelete(pkg.id)}>
-                  Delete
-                </button>
-              </div>
+              <div className="package-actions">
+  <button className="btn btn-edit" onClick={() => handleEdit(pkg)}>
+    ✏️ Edit
+  </button>
+
+  <button className="btn btn-delete" onClick={() => handleDelete(pkg.id)}>
+    🗑 Delete
+  </button>
+</div>
+
             </div>
           ))}
         </div>
