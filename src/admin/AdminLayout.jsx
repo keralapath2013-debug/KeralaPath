@@ -4,6 +4,7 @@ import VehicleManager from "./VehicleManager";
 import CategoryManager from "./CategoryManager";
 import GalleryManager from "./GalleryManager";
 import DashboardHome from "./DashboardHome";
+import PackagesManager from "./PackagesManager";
 
 export default function AdminLayout() {
   const [active, setActive] = useState("home");
@@ -17,6 +18,7 @@ export default function AdminLayout() {
         {active === "gallery" && <GalleryManager/>}
         {active === "vehicles" && <VehicleManager />}
         {active === "categories" && <CategoryManager />}
+        {active === "Packages" && <PackagesManager/>}
       </main>
     </div>
   );

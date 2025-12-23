@@ -63,7 +63,7 @@ export default function Contact() {
                     <div className="fs-3 text-success me-3">✉️</div>
                     <div>
                       <h5 className="fw-bold mb-2">Email Us</h5>
-                      <p className="text-muted mb-0">info@springsofkerala.com<br />bookings@springsofkerala.com</p>
+                      <p className="text-muted mb-0">keralapath2013@gmail.com</p>
                     </div>
                   </div>
                 </div>
