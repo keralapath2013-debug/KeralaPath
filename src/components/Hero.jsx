@@ -23,7 +23,7 @@ export default function Hero() {
                 experience for customers exploring any part of Kerala.
             </p> */}
             <div className="d-flex gap-3 justify-content-center flex-wrap">
-              <a href="#Vehicle" className="btn btn-light btn-lg px-5 rounded-pill">
+              <a href="#vehicle" className="btn btn-light btn-lg px-5 rounded-pill">
                 Vehicle Services
               </a>
               <a href="#contact" className="btn btn-outline-light btn-lg px-5 rounded-pill">

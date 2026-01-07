@@ -8,14 +8,14 @@
 .hero-section::before {
   content: '';
   position: absolute;
-  top: 0;
+  top: 0; 
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=1920');
+  background-image: url('../assets//tea-gardens.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.3;
+  opacity: 0.6;
   animation: slowZoom 20s ease-in-out infinite alternate;
 }
 
