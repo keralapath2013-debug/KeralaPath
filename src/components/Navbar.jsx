@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import logo from '../assets/logo.png'
 import './Navbar.css';
 
 export default function Navbar() {
@@ -7,8 +8,13 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
       <div className="container">
-        <a className="navbar-brand fw-bold text-success" href="#home">
-          Kerala Path Tours and Travels
+         <a className="navbar-brand d-flex align-items-center" href="#home">
+          <img
+            src={logo}
+            alt="Kerala Path Tours and Travels"
+            style={{ height: '50px', width: 'auto', marginRight: '8px' }}
+          />
+          <span className="fw-bold text-success">Kerala Path Tours and Travels</span>
         </a>
         <button
           className="navbar-toggler"

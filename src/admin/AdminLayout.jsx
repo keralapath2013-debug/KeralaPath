@@ -5,6 +5,7 @@ import CategoryManager from "./CategoryManager";
 import GalleryManager from "./GalleryManager";
 import DashboardHome from "./DashboardHome";
 import PackagesManager from "./PackagesManager";
+import AdminContacts from "./AdminContacts";
 
 export default function AdminLayout() {
   const [active, setActive] = useState("home");
@@ -19,6 +20,7 @@ export default function AdminLayout() {
         {active === "vehicles" && <VehicleManager />}
         {active === "categories" && <CategoryManager />}
         {active === "Packages" && <PackagesManager/>}
+        {active === "Contacts" && <AdminContacts/>}
       </main>
     </div>
   );

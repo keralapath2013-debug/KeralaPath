@@ -209,7 +209,7 @@ export default function Review() {
                 </div>
 
                 <button type="submit" className="btn btn-success btn-submit">
-                  Submit Review
+                  <a href=""></a>
                 </button>
               </form>
             </div>
