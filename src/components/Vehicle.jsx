@@ -153,7 +153,7 @@ export default function Vehicle() {
 
                     <div className="d-flex justify-content-between align-items-center">
                       <span className="fw-bold text-success">
-                        ₹{vehicle.price}/day
+                        ₹{vehicle.price}/day 80KM
                       </span>
 
                       <WhatsAppButton

@@ -69,6 +69,12 @@
   transform: translateY(-3px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
+
+.btn-xl {
+  font-size: 1.5rem !important;
+  padding: 0.75rem 2.5rem !important;
+}
+
 .typing-text {
   display: inline-block;
   min-height: 1.2em;

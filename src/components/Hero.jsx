@@ -22,8 +22,8 @@ export default function Hero() {
                 Path Tours & Travels focuses on reliable service, transparent pricing, and a hassle-free travel 
                 experience for customers exploring any part of Kerala.
             </p> */}
-            <div className="d-flex gap-3 justify-content-center flex-wrap">
-              <a href="#vehicle" className="btn btn-light btn-lg px-5 rounded-pill">
+            <div className="d-flex flex-column gap-3 justify-content-center align-items-center">
+              <a href="#vehicle" className="btn btn-light btn-xl px-5 rounded-pill">
                 Vehicle Services
               </a>
               <a href="#contact" className="btn btn-outline-light btn-lg px-5 rounded-pill">

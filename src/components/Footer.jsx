@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container">
         <div className="row g-4">
           <div className="col-lg-3 col-md-6">
-            <h5 className="fw-bold mb-3 text-white">Springs of Kerala</h5>
+            <h5 className="fw-bold mb-3 text-white">Kerala Path</h5>
             <p className="text-light opacity-75">
               Your gateway to unforgettable Kerala experiences. Discover the magic of God's Own Country with us.
             </p>
