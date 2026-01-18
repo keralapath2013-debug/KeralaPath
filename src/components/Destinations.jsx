@@ -4,7 +4,7 @@ const destinations = [
   {
     name: 'Fort Kochi',
     description: 'Fort Kochi is a coastal heritage quarter where colonial-era streets, Chinese fishing nets, art cafés, and old-world architecture blend with a relaxed sea breeze atmosphere.',
-    image: 'https://scontent.fcok8-1.fna.fbcdn.net/v/t39.30808-6/494645702_1097399312408313_5572608186590145887_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=rTWcohTztL0Q7kNvwHHTXE-&_nc_oc=AdkgyHSIm4beQ1pwv0e1F4-T_C04pMud0upgoPSB9iGvZdBO7mXDiIoTfcdJIsLvWwQ&_nc_zt=23&_nc_ht=scontent.fcok8-1.fna&_nc_gid=NuhHKxLeHXHgm6IjJaCEag&oh=00_Afqi0Pp33TxKPMWoB3ZZfTJyAzlhrHC96VeIQ2xg37Uxyg&oe=6963E156'
+    image: 'https://optimatravels.com/images/kerala-images/fort-kochi-head.jpg'
   },
   {
     name: 'Munnar',
@@ -29,7 +29,12 @@ const destinations = [
   {
     name: 'Kovalam',
     description: 'Kovalam is a crescent-shaped beach destination where golden sands, lighthouse views, gentle waves, and palm-lined shores come together for a laid-back seaside escape.',
-    image: 'https://www.viacation.com/_next/image?url=https%3A%2F%2Fwp.viacation.com%2Fwp-content%2Fuploads%2F2025%2F01%2F7xm413228-1.jpg&w=1280&q=75'
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/01KovalamBeach%26Kerala.jpg/500px-01KovalamBeach%26Kerala.jpg'
+  },
+  {
+    name: 'Kanyakumari',
+    description: 'Kanyakumari is a coastal town known for its stunning beaches, including the famous Cape Comorin, and its rich cultural heritage.',
+    image: 'https://imagedelivery.net/y9EHf1toWJTBqJVsQzJU4g/www.indianholiday.com/2024/09/kanyakumari-1.png/w=9999'
   }
 ];
 

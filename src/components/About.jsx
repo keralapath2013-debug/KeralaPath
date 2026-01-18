@@ -1,4 +1,5 @@
-import './About.css';
+import "./About.css";
+import aboutImage from "../assets/about.webp";
 
 export default function About() {
   return (
@@ -8,14 +9,15 @@ export default function About() {
           <div className="col-lg-6">
             <h2 className="display-5 fw-bold mb-4">About KeralaPath</h2>
             <p className="lead mb-4">
-              For over a decade, KeralaPath has been crafting unforgettable journeys through
-              God's Own Country. We are passionate about showcasing the rich cultural heritage,
-              pristine natural beauty, and warm hospitality that Kerala is renowned for.
+              At KeralaPath Tours & Travels, we create seamless travel
+              experiences across Kerala, combining comfort, reliability, and
+              local expertise to help you explore God’s Own Country with ease.
             </p>
+
             <p className="mb-4">
-              Our team of experienced travel experts ensures every trip is personalized to your
-              preferences, whether you seek adventure in the Western Ghats, tranquility in the
-              backwaters, or cultural immersion in historic towns.
+              With professional cab services and thoughtfully planned tours, we
+              cater to airport transfers, sightseeing, and popular destinations,
+              ensuring every journey is safe, personalized, and truly enjoyable.
             </p>
 
             <div className="row g-4 mt-4">
@@ -42,7 +44,7 @@ export default function About() {
 
           <div className="col-lg-6">
             <img
-              src="https://images.pexels.com/photos/3152124/pexels-photo-3152124.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src={aboutImage}
               alt="Kerala Tourism"
               className="img-fluid rounded shadow-lg"
             />

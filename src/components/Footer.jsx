@@ -25,17 +25,17 @@ export default function Footer() {
           <div className="col-lg-3 col-md-6">
             <h5 className="fw-bold mb-3 text-white">Contact</h5>
             <ul className="list-unstyled text-light opacity-75">
-              <li className="mb-2">MG Road, Kochi</li>
+              <li className="mb-2">KeralaPath ,Near Lighthouse, Puthuvype</li>
               <li className="mb-2">Kerala, India 682016</li>
-              <li className="mb-2">+91 484 123 4567</li>
-              <li className="mb-2">info@springsofkerala.com</li>
+              <li className="mb-2">+91 87141 91755</li>
+              <li className="mb-2">keralapath2013@gmail.com</li>
             </ul>
           </div>
 
           <div className="col-lg-3 col-md-6">
             <h5 className="fw-bold mb-3 text-white">Follow Us</h5>
             <div className="d-flex flex-column gap-2">
-              <a href="#" className="text-light text-decoration-none opacity-75">Facebook</a>
+              <a href="https://www.instagram.com/keralapath2013/" className="text-light text-decoration-none opacity-75">Facebook</a>
               <a href="#" className="text-light text-decoration-none opacity-75">Instagram</a>
               <a href="#" className="text-light text-decoration-none opacity-75">Twitter</a>
             </div>
