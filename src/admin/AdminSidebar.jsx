@@ -21,6 +21,7 @@ export default function AdminSidebar({ setActive }) {
         <button onClick={() => setActive("categories")}>Categories</button>
         <button onClick={() => setActive("Packages")}>Packages</button>
         <button onClick={() => setActive("Contacts")}>Contacts</button>
+        <button onClick={() => setActive("reviews")}>Reviews</button>
       </nav>
 
       <button className="admin-nav admin-logout" onClick={logout}>
