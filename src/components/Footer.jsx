@@ -28,6 +28,7 @@ export default function Footer() {
               <li className="mb-2">KeralaPath ,Near Lighthouse, Puthuvype</li>
               <li className="mb-2">Kerala, India 682016</li>
               <li className="mb-2">+91 87141 91755</li>
+              <li className='mb-2'>+91 99950 04752</li>
               <li className="mb-2">keralapath2013@gmail.com</li>
             </ul>
           </div>

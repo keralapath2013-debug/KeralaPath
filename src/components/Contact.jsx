@@ -70,7 +70,7 @@ export default function Contact() {
             <div className="row g-4">
               {[
                 { icon: "📍", title: "Visit Us", text: "KeralaPath ,Near Lighthouse, Puthuvype,Ernakulam 682508" },
-                { icon: "📞", title: "Call Us", text: "+91 87141 91755" },
+                { icon: "📞", title: "Call Us", text: "+91 87141 91755 - +91 99950 04752" },
                 { icon: "✉️", title: "Email Us", text: "keralapath2013@gmail.com" },
                 { icon: "🕐", title: "Working Hours", text: "24/7 Hours" }
               ].map((item, i) => (
